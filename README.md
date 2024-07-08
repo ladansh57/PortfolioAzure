@@ -1,4 +1,4 @@
-# My Resume Profile
+# My Protfolio Azure
 
 This is my personal resume profile, showcasing my experience and skills as a Full Stack Developer. The application is built using Next.js and React, and deployed on Azure App Service.
 
@@ -27,4 +27,4 @@ This is my personal resume profile, showcasing my experience and skills as a Ful
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ladansh57/MyResumeProfile.git
+   git clone https://github.com/ladansh57/PortfolioAzure.git
