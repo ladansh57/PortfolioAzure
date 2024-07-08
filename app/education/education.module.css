@@ -1,0 +1,75 @@
+.container {
+  background-image: url("../../images/education.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7); /* black with 50% transparency */
+  background-blend-mode: overlay; /* blends the background image with the background color */
+}
+
+.container .header,
+.container .section {
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 1.2rem;
+   text-align: left;
+}
+
+.container .section li:hover {  
+  color: #daa520;
+}
+
+.container h1{
+padding-left: 1.3rem;
+    color: #4DA67E;
+
+}
+
+
+.container h3{
+  color: #eff30b;
+   font-size: 1.3rem;
+
+}
+
+.container h3:hover{
+  text-shadow: 5px 3px 5px rgba(199, 20, 29, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.container h1:hover{
+  color: #DCBF57;
+   transform: scale(1.1); /* Example: Increase size by 10% */
+
+}
+
+
+
+@media (max-width: 600px) {
+  .container h1:hover,
+  .container h2:hover,
+  .container h3:hover {
+    transform: scale(1.05); /* Example: Increase size by 10% */
+  }
+
+
+  .container .header,
+.container .section {
+  
+
+    font-size: 1.1rem;
+    text-align: left;
+  
+
+}
+.container h1{
+    padding-left: 1rem;}
+}

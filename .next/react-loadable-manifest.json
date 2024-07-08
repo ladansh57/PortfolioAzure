@@ -1,0 +1,11 @@
+{
+  "app\\Ladan\\page.js -> ./test/MyComponent": {
+    "id": 8242,
+    "files": [
+      "static/css/e288b1963a4253c7.css",
+      "static/chunks/231-7fbfcfc7502023bc.js",
+      "static/chunks/438.b41334415efd6935.js",
+      "static/chunks/242.1e1c386833a33947.js"
+    ]
+  }
+}

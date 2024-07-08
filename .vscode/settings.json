@@ -1,0 +1,3 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/faa0fa43-2b9c-4856-b272-a7cd7bae39de/resourceGroups/TestReactApp-RG/providers/Microsoft.Web/sites/MyResumeh"
+}

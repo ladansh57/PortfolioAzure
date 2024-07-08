@@ -1,0 +1,99 @@
+.homeLink {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.homeLink:hover {
+  color: #ffcc00; /* New color on hover */
+  background: linear-gradient(
+    114.3deg,
+    rgb(19, 126, 57) 0.2%,
+    rgb(8, 65, 91) 68.5%
+  );
+}
+
+.menuBarLinks {
+  color: #fff;
+  text-decoration: none;
+
+  font-size: 1.8rem;
+}
+
+.menuBarLinks:hover {
+  color: #daa520;
+  background: linear-gradient(
+    114.3deg,
+    rgb(19, 126, 57) 0.2%,
+    rgb(8, 65, 91) 68.5%
+  );
+}
+
+/* styles/Home.module.css */
+.container {
+  background-image: url("../images/pen.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flexbox;
+  flex-direction: column;
+
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+  background-blend-mode: overlay; /* blends the background image with the background color */
+}
+
+.container .header,
+.container .section {
+  margin-bottom: 40px;
+  /*background-color: #f0f5f4;*/
+  font-size: 1.2rem;
+}
+
+.container .header {
+  background: linear-gradient(125deg, #141b1d, #60ad68);
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.container h1,
+.container h2,
+.container h3 {
+  color: #4da67e;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.container h1:hover,
+.container h2:hover,
+.container h3:hover {
+  transform: scale(1.3); /* Example: Increase size by 10% */
+  color: #daa520;
+}
+
+.container a {
+  color: #61dafb;
+}
+
+@media (max-width: 600px) {
+  .container h1:hover,
+  .container h2:hover,
+  .container h3:hover {
+    transform: scale(1.05); /* Example: Increase size by 10% */
+  }
+
+  .container .header,
+  .container .section {
+    margin-bottom: 40px;
+
+    font-size: 0.8rem;
+    text-align: left;
+    padding: 5px;
+  }
+}

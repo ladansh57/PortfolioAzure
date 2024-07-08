@@ -1,0 +1,22 @@
+header {
+  width: 100%;
+  padding: 50px 0px 50px;
+  /* background: #212121; */
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(
+      114.3deg,
+      rgba(19, 126, 57, 0.8) 0.2%,
+      rgba(8, 65, 91, 0.8) 68.5%
+    ),
+    url("../images/profile2.JPG"); /* Add your image URL here */
+  background-size: cover, cover cover; /* First value for gradient, second for image size */
+  background-position: center, right; /* Position both background layers */
+  background-repeat: no-repeat, no-repeat; /* Prevents the image from repeating */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9); /* Example box shadow */
+}
+
+body {
+  margin: 0;
+}
