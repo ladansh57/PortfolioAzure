@@ -1,4 +1,4 @@
-# My Protfolio Azure
+# My Portfolio Azure
 
 This is my personal resume profile, showcasing my experience and skills as a Full Stack Developer. The application is built using Next.js and React, and deployed on Azure App Service.
 
