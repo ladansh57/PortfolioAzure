@@ -1,4 +1,4 @@
-// File: C:\Next.js-Fundamentals-main\MyResumeProfile\app\settings\password\page.js
+// File: C:\PortfolioAzure\app\settings\password\page.js
 import * as entry from '../../../../../app/settings/password/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

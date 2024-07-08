@@ -1,4 +1,4 @@
-// File: C:\Next.js-Fundamentals-main\MyResumeProfile\app\layout.js
+// File: C:\PortfolioAzure\app\layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
